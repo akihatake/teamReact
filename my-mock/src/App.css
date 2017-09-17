@@ -1,3 +1,8 @@
+
+table, td, th {
+border: 1px #0000ff groove;
+}
+
 .App {
   text-align: center;
 }

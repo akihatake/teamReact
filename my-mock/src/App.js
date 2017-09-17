@@ -11,7 +11,28 @@ class App extends Component {
           <h2>Firebaseを利用したReactお小遣い帳アプリを考案してみたんだが</h2>
         </div>
         <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
+        <table>
+          <tr>
+            <th>日付</th>
+            <th>品目</th>
+            <th>金額</th>
+          </tr>
+          <tr>
+            <td>20170917</td>
+            <td>KitKat(岩泉ヨーグルト味)</td>
+            <td>500</td>
+          </tr>
+          <tr>
+            <td>20170917</td>
+            <td>短角牛</td>
+            <td>2000</td>
+          </tr>
+          <tr>
+            <td>20170917</td>
+            <td>じゃがいも</td>
+            <td>300</td>
+          </tr>
+        </table>
         </p>
       </div>
     );
