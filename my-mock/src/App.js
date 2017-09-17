@@ -11,6 +11,13 @@ class App extends Component {
           <h2>Firebaseを利用したReactお小遣い帳アプリを考案してみたんだが</h2>
         </div>
         <p className="App-intro">
+        
+        <ul>
+          <li>
+          
+          </li>
+        </ul>
+        
         <table>
           <tr>
             <th>日付</th>
