@@ -11,12 +11,21 @@ class App extends Component {
           <h2>Firebaseを利用したReactお小遣い帳アプリを考案してみたんだが</h2>
         </div>
         <p className="App-intro">
-        
-        <ul>
-          <li>
-          
-          </li>
-        </ul>
+        <form id="form1">
+          <ul>
+            <li>
+              <label><span>20170917</span></label>
+              <label><span>KitKat(岩泉ヨーグルト味)</span></label>
+              <label><span>500</span></label>
+              <label><span><input type="button" value="削除"/></span></label>
+            </li>
+            <li>
+              <label><span>20170917</span></label>
+              <label><span>短角牛</span></label>
+              <label><span>2000</span></label>
+            </li>
+          </ul>
+        </form>
         
         <table>
           <tr>
